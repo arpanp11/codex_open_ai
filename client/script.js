@@ -78,7 +78,7 @@ const submitHandler = async (e) => {
   loader(messageDiv);
 
   // fetch data from the server
-  const response = await fetch('http://localhost:5000', {
+  const response = await fetch('https://codex-hake.onrender.com/', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
